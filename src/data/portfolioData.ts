@@ -41,10 +41,10 @@ export interface Testimonial {
 
 export const BIOGRAPHY = {
   name: "Ak Bhuker",
-  tagline: "Cinematic Music Composer & Producer",
-  subTagline: "Sculpting sonic landscapes and cinematic dimensions that breathe life into visual storytelling.",
-  aboutText1: "I am Ak Bhuker, an award-winning music composer, arranger, and producer specializing in custom film scoring, television themes, commercial sound identity, and high-fidelity mixing. With over a decade of dedication to the craft of music architecture, my philosophy revolves around translating emotional depth into premium auditory designs.",
-  aboutText2: "From sprawling epic orchestral arrangements to gritty, modern hybrid synth scores, my work is driven by visual synchronization and narrative flow. I collaborate directly with directors, film producers, and global brands to craft distinct sonic universes that define the emotional core of each masterpiece.",
+  tagline: "Cinematic Composer & Producer",
+  subTagline: "Sculpting acoustic architecture and bespoke spatial soundscapes for film and virtual mediums.",
+  aboutText1: "Ak Bhuker is a senior orchestral composer and acoustic designer with over a decade of scoring experience. Harmonizing classical instrumentation with modular synthesizer synthesis, his practice focuses on visual synchronization and narrative resonance.",
+  aboutText2: "Operating from a synchronized custom facility, he collaborates with directors and visual artists to construct tailored acoustic universes. Each score is treated as a three-dimensional environment—crafted to elevate, suspend, or dissolve visual tension.",
   influences: ["Hans Zimmer", "Trent Reznor", "John Williams", "Max Richter", "Ludwig Göransson", "Vangelis"],
   stats: [
     { label: "Years Experience", value: "10+" },
@@ -53,10 +53,50 @@ export const BIOGRAPHY = {
     { label: "Feature Films", value: "12" }
   ],
   timeline: [
-    { year: "2024 - Present", title: "Lead Cinematic Composer", agency: "Epic Soundscapes Studios", desc: "Composing full-length scores for independent feature films and AAA game titles." },
-    { year: "2021 - 2023", title: "Senior Sound Designer & Arranger", agency: "Vivid Media Corp", desc: "Designed premium sonic branding and high-converting commercial jingles for Fortune 500 companies." },
-    { year: "2018 - 2021", title: "Freelance Music Producer & Mixer", agency: "Self-Employed", desc: "Mixed and engineered records for independent artists and scored multiple award-winning short films." },
-    { year: "2015 - 2018", title: "Assistant Arrangement Composer", agency: "Metropolis Orchestra", desc: "Developed orchestral transcriptions, arrangements, and MIDI mockups for big-budget theatrical releases." }
+    {
+      year: "2015",
+      phase: "THE BEGINNING",
+      title: "Assistant Arrangement Composer",
+      agency: "Metropolis Orchestra",
+      desc: "Learning orchestration, arrangement, and cinematic composition while collaborating with experienced composers.",
+      tags: ["Orchestral", "Strings", "MIDI", "Film Score"],
+      achievement: "First commercial orchestral production",
+      coverUrl: "https://images.unsplash.com/photo-1507838153414-b4b713384a76?q=80&w=600&auto=format&fit=crop",
+      audioUrl: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3"
+    },
+    {
+      year: "2018",
+      phase: "THE DISCOVERY",
+      title: "Freelance Composer",
+      agency: "Independent Studios",
+      desc: "Worked with independent artists and filmmakers creating emotional cinematic music.",
+      tags: ["Piano", "Ambient", "Drama", "Documentary"],
+      achievement: "50+ Independent Projects",
+      coverUrl: "https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?q=80&w=600&auto=format&fit=crop",
+      audioUrl: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3"
+    },
+    {
+      year: "2021",
+      phase: "THE BREAKTHROUGH",
+      title: "Senior Sound Designer",
+      agency: "Vivid Media Corp",
+      desc: "Designed premium sonic branding, trailers, commercials, and immersive sound experiences.",
+      tags: ["Commercial", "Brand Audio", "Trailers"],
+      achievement: "Fortune 500 Clients",
+      coverUrl: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?q=80&w=600&auto=format&fit=crop",
+      audioUrl: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3"
+    },
+    {
+      year: "2024",
+      phase: "THE MASTERPIECE",
+      title: "Lead Cinematic Composer",
+      agency: "Epic Soundscapes Studios",
+      desc: "Leading orchestral productions, AAA game music, and feature film scores.",
+      tags: ["Film", "Games", "Orchestra"],
+      achievement: "100+ Productions",
+      coverUrl: "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?q=80&w=600&auto=format&fit=crop",
+      audioUrl: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3"
+    }
   ]
 };
 
@@ -108,7 +148,7 @@ export const TRACKS: Track[] = [
     duration: "5:40",
     description: "Deeply atmospheric, dark suspense cue. Creepy woodwinds, metallic textures, and distant heavy impacts, custom-crafted for psychological thrillers.",
     audioUrl: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
-    coverUrl: "https://images.unsplash.com/photo-1487180144351-b8472da7a4c3?q=80&w=600&auto=format&fit=crop",
+    coverUrl: "https://images.unsplash.com/photo-1514539079130-25950c84af65?q=80&w=600&auto=format&fit=crop",
     year: "2024"
   },
   {
@@ -135,7 +175,7 @@ export const SERVICES: Service[] = [
   },
   {
     id: "srv-2",
-    title: "Commercial Jingles",
+    title: "Background Scores",
     iconName: "Tv",
     description: "Custom audio logos, ad scores, and memorably punchy jingles curated to build your brand identity and hook your target audience instantly.",
     deliverables: ["15s, 30s, and 60s cutdowns", "Sound branding logo files (WAV & MP3)", "Royalty-free licensing", "High-impact master file optimized for streaming/TV"],
@@ -144,7 +184,7 @@ export const SERVICES: Service[] = [
   },
   {
     id: "srv-3",
-    title: "Music Arrangement",
+    title: "Commercial Music",
     iconName: "Music",
     description: "Elevating raw song demos into rich, professionally composed masterpieces. Harmonization, instrumentation, and full dynamic structures custom-fitted to your voice.",
     deliverables: ["Complete multitrack arrangement", "Sheet music transcription (Optional)", "Virtual instrument rendering (VCO, Soloists)", "Pre-production demo project files"],
@@ -153,7 +193,7 @@ export const SERVICES: Service[] = [
   },
   {
     id: "srv-4",
-    title: "Stereo Mixing & Engineering",
+    title: "Video Game Music",
     iconName: "Sliders",
     description: "Blending your separate instrumental and vocal tracks into a unified, warm, and competitive final mix. Perfect balance, incredible stereo depth, and high-impact transients.",
     deliverables: ["Primary Stereo Mix (WAV 24-bit)", "Instrumental and A-cappella passes", "Full dynamic stem groups", "Revisions included"],
@@ -162,7 +202,7 @@ export const SERVICES: Service[] = [
   },
   {
     id: "srv-5",
-    title: "Atmospheric Sound Design",
+    title: "Music Production",
     iconName: "Volume2",
     description: "Creating tailor-made soundscapes, synthesizer presets, atmospheric textures, and SFX packages for video games, trailers, and modern cinematic media.",
     deliverables: ["Unique high-res audio assets (96kHz)", "Interactive loop layers", "Custom synth presets (Serum, Omnisphere)", "Full commercial license"],
