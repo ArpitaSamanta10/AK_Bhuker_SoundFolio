@@ -30,9 +30,9 @@ export const Footer: React.FC = () => {
         <div id="footer-branding-column" className="flex flex-col gap-4">
           <div className="flex items-center gap-2">
             <div className="w-6 h-6 flex items-center justify-center bg-brand-accent rounded text-black font-display font-bold text-xs">
-              S
+              A
             </div>
-            <span className="font-display font-bold tracking-widest text-white text-lg">SOUNDFOLIO</span>
+            <span className="font-display font-bold tracking-widest text-white text-lg">AK BHUKER</span>
           </div>
           <p className="text-gray-400 text-sm leading-relaxed max-w-sm">
             Professional high-fidelity music composition, film scoring, and arrangement designed to bring your cinematic visions to life.
@@ -184,7 +184,7 @@ export const Footer: React.FC = () => {
       {/* Underline copyright banner */}
       <div className="max-w-7xl mx-auto px-6 md:px-12 mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-gray-500 font-mono">
         <span id="footer-copyright-banner">
-          &copy; {currentYear} SoundFolio. Developed for Ak Bhuker. All rights reserved.
+          &copy; {currentYear} Ak Bhuker. All rights reserved.
         </span>
         <div className="flex items-center gap-6">
           <span className="flex items-center gap-1">

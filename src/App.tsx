@@ -77,10 +77,10 @@ export default function App() {
 
           <div className="flex flex-col gap-1.5 mt-2">
             <span className="font-display font-bold text-xl tracking-widest text-white uppercase">
-              SOUNDFOLIO
+              AK BHUKER
             </span>
             <span className="text-[10px] tracking-[0.3em] uppercase text-gray-500 font-bold">
-              Ak Bhuker • Composer Portfolio
+              Cinematic Composer & Producer
             </span>
           </div>
 

@@ -62,14 +62,14 @@ export const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
           className="flex items-center gap-2.5 group"
         >
           <div className="relative w-8 h-8 flex items-center justify-center bg-brand-accent rounded-lg overflow-hidden transition-transform duration-300 group-hover:scale-110">
-            <span className="font-display font-bold text-black text-lg">S</span>
+            <span className="font-display font-bold text-black text-lg">A</span>
           </div>
           <div className="flex flex-col">
             <span className="font-display font-bold text-lg tracking-wider text-white group-hover:text-brand-accent transition-colors duration-300">
-              SOUNDFOLIO
+              AK BHUKER
             </span>
             <span className="text-[10px] tracking-[0.2em] uppercase font-mono text-gray-400">
-              Ak Bhuker
+              Cinematic Composer
             </span>
           </div>
         </a>
